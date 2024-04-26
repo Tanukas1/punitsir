@@ -1,0 +1,689 @@
+﻿.meubartoggler {
+    width: 42%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+
+.product-thumbnail a h3 {
+    font-size: 20px;
+    padding: 15px;
+    display: block;
+    line-height: 1.2 !important;
+    height: 80px;
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .product-thumbnail a h3 {
+        font-size: 20px;
+        padding: 15px;
+        display: block;
+        line-height: 1.2 !important;
+        height: auto;
+
+
+    }
+}
+
+@media screen and (min-width:900px) and (max-width:1366px) {
+
+    .meubartoggler {
+        width: 45%;
+
+    }
+
+
+
+
+}
+
+
+.furniturediv {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.furniturediv a {
+    display: block;
+    width: 32%;
+    border-radius: 10px;
+    border: 2px solid #4b94c0;
+    padding: 0.5rem;
+}
+
+.furniturediv a img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.mysite-header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 6rem;
+
+    background-color: white;
+    -webkit-box-shadow: -1px 7px 8px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 7px 8px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 7px 8px -6px rgba(0, 0, 0, 0.75)
+}
+
+.logo img {
+    width: 80%;
+}
+
+.navbar {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    right: -320px;
+    background-color: white;
+    transition: 0.5s;
+    width: 300px;
+    height: 100vh;
+    bottom: 0;
+
+    -webkit-box-shadow: -6px -4px 8px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -6px -4px 8px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: -6px -4px 8px -6px rgba(0, 0, 0, 0.75);
+
+}
+
+.mysite-header .navbar ul {
+    list-style: none;
+}
+
+.mysite-header .navbar ul li {
+    position: relative;
+    float: left;
+    width: 100%;
+    display: block;
+}
+
+.mysite-header .navbar ul li a {
+    font-size: 16px;
+    padding: 5px;
+    color: black;
+    display: block;
+}
+
+.mysite-header .navbar ul li a:hover {
+    color: #4b94c0 !important;
+    text-decoration: none;
+    border-left: 2px solid #4b94c0;
+}
+
+.mysite-header .navbar ul li ul {
+    position: relative;
+    left: 0;
+    width: 200px;
+    background-color: white;
+    /*display: none;*/
+    margin: 0px;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+
+
+.mysite-header .navbar ul li ul li:first-child {
+
+
+    border-top: 0px solid lightgrey;
+
+
+}
+
+
+.mysite-header .navbar ul li ul li {
+    width: 100%;
+    border-top: 1px solid lightgrey;
+    padding: 0px;
+    border-left: 1px solid lightgrey;
+}
+
+.mysite-header .navbar ul li ul li a {
+    display: block;
+    color: black !important;
+}
+
+/*.mysite-header .navbar ul li:focus-within ul,
+        .mysite-header .navbar ul li:hover ul {
+            display: initial;
+        }*/
+
+#menu-bar {
+    display: block;
+}
+
+.mysite-header label {
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+.darkHeader {
+    background-color: #fafafa !important;
+}
+
+.darkHeader a {
+    color: black !important;
+}
+
+.darkHeader ul li ul {
+    background-color: #f2f2f2 !important;
+}
+
+.locationul {
+    width: 100%;
+    background-color: black;
+    color: #4b94c0;
+}
+
+.mtop {
+    margin-top: 3rem !important;
+    margin-bottom: 6rem;
+}
+
+.mtop ul {
+
+    margin-left: -22px;
+}
+
+.mtop ul li b {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.mtop ul li {
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 1.8
+}
+
+.pl-5 {
+    padding-left: 16rem;
+}
+
+.mt-5 {
+    margin-top: 6rem;
+}
+
+.mb-5 {
+    margin-top: 6rem;
+}
+
+
+.d-flex {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    width: 66.5%;
+    margin-right: 2rem;
+}
+
+.d-flex li {
+
+    text-align: right;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex li i {
+
+    margin-right: 5px;
+    color: #4b94c0;
+
+}
+
+.meubartoggler i,
+.meubartogglerclose i {
+    font-size: 2rem;
+}
+
+
+
+.meubartogglerclose {
+    cursor: pointer;
+    display: block;
+    text-align: right;
+    padding: 2rem;
+
+}
+
+.shownvarbar {
+    right: 0px;
+    transition: 0.5s;
+}
+
+.mtopbanner {
+    margin-top: 100px;
+}
+
+.mb-5 {
+    margin-bottom: 6rem;
+}
+
+.whybuy {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.fromus {
+    width: 32%;
+    background-color: #57585a;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+    margin-bottom: 20px;
+    height: 110px;
+}
+
+.fromus img {
+    width: 50px;
+    height: 50px;
+    margin-top: 5.5%;
+}
+
+.fromus div {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.fromus div h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.fromus div p {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.mypadding {
+    padding: 5rem;
+}
+
+.myul {
+    margin-left: -8%;
+    list-style: none;
+}
+
+.myul b {
+    font-size: 3rem;
+}
+
+.pdall {
+    padding: 5% 1%;
+
+}
+
+.m-5 {
+    margin-top: 2rem;
+}
+
+.m-6 {
+    margin-top: 2.5rem;
+}
+
+.lbltxt {
+    font-weight: 100;
+}
+
+.mytxtbox {
+    box-shadow: none;
+    border-radius: 50px;
+}
+
+.mt-8 {
+    margin-top: 12%;
+    margin-bottom: 8%;
+}
+
+.mr-5 {
+    margin-right: 5rem !important;
+}
+
+.txtcontact {
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.btncontact {
+
+    background-color: #4b94c0;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    width: 100px;
+    float: right;
+    outline: none;
+    border: none;
+}
+
+/*---------------------TrendsPage---------------------------------------*/
+.trendsdiv1out {
+    position: relative;
+    margin-top: -0%;
+}
+
+.trendsdiv1 {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.72);
+    height: auto;
+    z-index: 99;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    padding: 2rem;
+}
+
+.trendsdiv1 h6 {
+
+    font-size: 1.8rem;
+
+}
+
+.trendsdiv1 h2 {
+
+    margin-bottom: 2rem;
+
+}
+
+.trensptag {
+    padding: 1rem;
+
+}
+
+.trensptag span {
+    font-size: 3rem;
+    color: #0c496d;
+}
+
+.forsepteter {
+    display: block;
+    width: 100%;
+    height: 200px;
+}
+
+.h2fortrends {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 96%;
+    line-height: 1.3;
+}
+
+/*------------------------------About US----------------------------*/
+.imgconatiner {
+    width: 1005;
+    display: flex;
+
+}
+
+.imgconatiner img {
+    width: 25%;
+}
+
+/*---------------------ContactUs----------------------------*/
+.fs-1 {
+    font-size: 2rem;
+}
+
+.onlyforbutton {
+    margin-bottom: 1rem !important;
+}
+
+@media (max-width:991px) {
+
+    .furniturediv a {
+        display: block;
+        width: 100%;
+        border-radius: 10px;
+        border: 2px solid #4b94c0;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+
+    .d-flex {
+        display: none;
+    }
+
+    .mysite-header {
+        background-color: white;
+        padding: 15px !important;
+    }
+
+    .mysite-header {
+        padding: 20px;
+    }
+
+    .mysite-header label {
+        display: initial;
+    }
+
+
+
+    #menu-bar:checked~.navbar {
+        display: initial;
+    }
+
+
+    .pl-5 {
+        padding-left: 2rem;
+    }
+
+    .mt-5 {
+        margin-top: 6rem;
+    }
+
+    .mb-5 {
+        margin-top: 6rem;
+    }
+
+    .meubartoggler {
+        width: 45%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+    }
+
+
+    .whybuy {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 2rem;
+    }
+
+    .fromus {
+        width: 100%;
+        background-color: #57585a;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        color: white;
+        margin-bottom: 20px;
+        height: 110px;
+    }
+
+    .fromus img {
+        width: 50px;
+        height: 50px;
+        margin-top: 5.5%;
+    }
+
+    .fromus div {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .fromus div h3 {
+        font-size: 14px;
+        margin-bottom: 10px;
+        color: #fff;
+        font-weight: 700;
+    }
+
+    .fromus div p {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .mypadding {
+        padding: 5rem;
+    }
+
+    .myul {
+        margin-left: -8%;
+        list-style: none;
+    }
+
+    .myul b {
+        font-size: 3rem;
+    }
+
+    .pdall {
+        padding: 5% 1%;
+
+    }
+
+    .m-5 {
+        margin-top: 2rem;
+    }
+
+    .m-6 {
+        margin-top: 2.5rem;
+    }
+
+    .lbltxt {
+        font-weight: 100;
+    }
+
+    .mytxtbox {
+        box-shadow: none;
+        border-radius: 50px;
+    }
+
+    .mt-8 {
+        margin-top: 12%;
+        margin-bottom: 8%;
+    }
+
+    .mr-5 {
+        margin-right: 5rem !important;
+    }
+
+    .txtcontact {
+        border-radius: 50px;
+        padding: 10px;
+    }
+
+    .btncontact {
+
+        background-color: #4b94c0;
+        color: white;
+        border-radius: 50px;
+        padding: 10px;
+        width: 100px;
+        float: right;
+        outline: none;
+        border: none;
+    }
+
+    /*---------------------TrendsPage---------------------------------------*/
+    .trendsdiv1out {
+        position: relative;
+        margin-top: -0%;
+    }
+
+    .trendsdiv1 {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.72);
+        height: auto;
+        z-index: 99;
+        position: absolute;
+        bottom: 0;
+        color: white;
+        padding: 2rem;
+    }
+
+    .trendsdiv1 h6 {
+
+        font-size: 1.8rem;
+
+    }
+
+    .trendsdiv1 h2 {
+
+        margin-bottom: 2rem;
+
+    }
+
+    .trensptag {
+        padding: 1rem;
+
+    }
+
+    .trensptag span {
+        font-size: 3rem;
+        color: #0c496d;
+    }
+
+    /*------------------------------About US----------------------------*/
+    .imgconatiner {
+        width: 1005;
+        display: flex;
+
+    }
+
+    .imgconatiner img {
+        width: 25%;
+    }
+
+    /*---------------------ContactUs----------------------------*/
+    .fs-1 {
+        font-size: 2rem;
+    }
+
+    .onlyforbutton {
+        margin-bottom: 10rem !important;
+    }
+
+
+}
