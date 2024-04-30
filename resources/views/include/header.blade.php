@@ -47,9 +47,9 @@
         <li><a href="{{url('/ourAssociation')}}">Our Association</a></li>
 
 
-        <li><a href="\galleryVideo">Gallery Video</a></li>
+        <li><a href="{{url('/galleryVideo')}}">Gallery Video</a></li>
 
-        <li><a href="\galleryImages">Gallery Images</a></li>
+        <li><a href="{{url('/galleryImages')}}">Gallery Images</a></li>
 
         <li><a href="{{url('/location')}}">Location</a></li>
         <li><a href="{{url('/trends')}}">Trends</a></li>

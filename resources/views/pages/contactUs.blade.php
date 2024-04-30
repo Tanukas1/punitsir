@@ -35,9 +35,6 @@
                                                     <div
                                                         class="contact-address panel-widget-style panel-widget-style-for-699-0-0-0">
 
-
-
-
                                                         <h3 class="widget-title">Get in touch with our design experts.
                                                         </h3>
                                                         <div class="textwidget">
