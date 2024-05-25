@@ -57,64 +57,58 @@
                                 </div>
                             </div>
                         </div>
+                        <section>
+                            <div class="container pdall mb-3" style="background: linear-gradient(24deg, rgb(29 163 220 / 83%) 26%, rgb(35 86 159 / 82%) 69%); border-radius: 10px; width: 60%; margin-top: 20px; margin-bottom: 20px; padding: 2% 1%">
+                                            <h2 style="color: white;">Share your details with us</h2>
+                                            <br />
+                                            <hr />
+                                            <div class="row">
+                                                <div class="col-md-6 m-5">
+                                                    <label class="lbltxt" style="color: white"> Name <span style="color:red">*</span></label>
+                                                    <input class="form-control" type="text"
+                                                        placeholder="Enter Name" id="txtname" />
+                                                </div>
 
+                                                <div class="col-md-6 m-5">
+                                                    <label class="lbltxt" style="color: white"> Email</label>
+                                                    <input class="form-control" type="text"
+                                                        placeholder="Enter Email" id="txtemail" />
+                                                </div>
 
-                        <div class="container pdall">
+                                                <div class="col-md-6 m-5">
+                                                    <label class="lbltxt" style="color: white"> Phone Number <span
+                                                            style="color:red">*</span></label>
+                                                    <input class="form-control " type="text"
+                                                        placeholder="Enter Valid 10 Digit Number" id="txtphone"
+                                                        onkeypress=" return isNumber(event)" />
+                                                </div>
 
-                            <h2>Share your details with us</h2>
-                            <br />
-                            <hr />
-                            <div class="row">
+                                                <div class="col-md-6 m-5">
+                                                    <label class="lbltxt" style="color: white"> Alternate Number</label>
+                                                    <input class="form-control" type="text"
+                                                        placeholder="Enter Valid 10 Digit Number" id="txtaltphone" />
+                                                </div>
 
-                                <div class="col-md-6 m-5">
-                                    <label class="lbltxt"> Name <span style="color:red">*</span></label>
-                                    <input class="form-control mytxtbox" type="text" placeholder="Enter Name"
-                                        id="txtname" />
-                                </div>
+                                                <div class="col-md-12 m-5" >
+                                                    <label class="lbltxt" style="color: white"> Residing City <span
+                                                            style="color:red">*</span></label>
+                                                    <input class="form-control " type="text"
+                                                        placeholder="Enter City Name" id="txtcity" />
+                                                </div>
 
-                                <div class="col-md-6 m-5">
-                                    <label class="lbltxt"> Email</label>
-                                    <input class="form-control mytxtbox" type="text" placeholder="Enter Email"
-                                        id="txtemail" />
-                                </div>
+                                                <div class="col-md-12 m-5">
+                                                    <label class="lbltxt" style="color: white"> Message <span style="color:red">*</span></label>
+                                                    <textarea class="form-control" cols="6" rows="6"
+                                                        id="txtmessage"></textarea>
+                                                </div>
 
-                                <div class="col-md-3 m-5">
-                                    <label class="lbltxt"> Phone Number <span style="color:red">*</span></label>
-                                    <input class="form-control mytxtbox" type="text"
-                                        placeholder="Enter Valid 10 Digit Number" id="txtphone"
-                                        onkeypress=" return isNumber(event)" />
-                                </div>
-
-                                <div class="col-md-3 m-5">
-                                    <label class="lbltxt"> Alternate Number</label>
-                                    <input class="form-control mytxtbox" type="text"
-                                        placeholder="Enter Valid 10 Digit Number" id="txtaltphone" />
-                                </div>
-
-                                <div class="col-md-6 m-5">
-                                    <label class="lbltxt"> Residing City <span style="color:red">*</span></label>
-                                    <input class="form-control mytxtbox" type="text" placeholder="Enter City Name"
-                                        id="txtcity" />
-                                </div>
-
-                                <div class="col-md-12 m-5">
-                                    <label class="lbltxt"> Message <span style="color:red">*</span></label>
-                                    <textarea class="form-control" cols="6" rows="6" id="txtmessage"></textarea>
-                                </div>
-
-                                <div class="col-md-12 m-5">
-                                    <label class="lbltxt"> File Upload <span style="color:red">*</span></label>
-                                    <input class="form-control" type="file" id="imgInp" />
-                                </div>
-
-                                <div class="col-md-6 m-5">
-
-                                    <input class="btn btn-success m-6" type="button" value="Submit"
-                                        onclick="submitrecord()" />
-                                </div>
-                            </div>
-
-                        </div>
+                                                <div class="col-md-6 m-5">
+                                                    <input class="btn btn-primary btn-lg-6 m-6" type="button" value="Submit"
+                                                        onclick="submitrecord()" />
+                                                </div>
+                                            </div>
+                                        </div>
+                         <section>
 
 
                     </div>

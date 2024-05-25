@@ -20,14 +20,10 @@
     <div class="meubartogglerclose" onclick="gtmclose()">
         <i class="fa-solid fa-xmark"></i>
     </div>
-
-
     <ul class="mymenuul">
-
         <li><a href="{{url('/')}}">Home</a></li>
-
         <li>
-            <a href="{{url('/collection')}}">Collection </a>
+            <a href="{{url('/collections')}}">Collection </a>
             <ul>
                 <li>
                     <a href="{{url('/modern')}}">Modern</a>
@@ -38,25 +34,23 @@
                 <li>
                     <a href="{{url('/wardrobe')}}">Wardrobe</a>
                 </li>
-
             </ul>
-
         </li>
         <!-- <li><a href="\furniture.html">Furniture</a></li> -->
 
-        <li><a href="{{url('/ourAssociation')}}">Our Association</a></li>
+        <li><a href="{{url('/our-association')}}">Our Association</a></li>
 
 
-        <li><a href="{{url('/galleryVideo')}}">Gallery Video</a></li>
+        <li><a href="{{url('/gallery-video')}}">Gallery Video</a></li>
 
-        <li><a href="{{url('/galleryImages')}}">Gallery Images</a></li>
+        <li><a href="{{url('/gallery-images')}}">Gallery Images</a></li>
 
         <li><a href="{{url('/location')}}">Location</a></li>
         <li><a href="{{url('/trends')}}">Trends</a></li>
-        <li><a href="{{url('/careerWith')}}">Career With Us</a></li>
-        <li><a href="{{url('/aboutus')}}">About Us</a></li>
+        <li><a href="{{url('/career-with')}}">Career With Us</a></li>
+        <li><a href="{{url('/about-us')}}">About Us</a></li>
         <li><a href="{{url('/testimonials')}}">Testimonials</a></li>
-        <li><a href="{{url('/contactUs')}}">Contact US</a></li>
+        <li><a href="{{url('/contact-us')}}">Contact US</a></li>
         <li><a href="{{url('/blog')}}">Blog</a></li>
     </ul>
 </nav>

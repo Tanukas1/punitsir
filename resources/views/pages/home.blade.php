@@ -37,7 +37,7 @@
                     <div class="carousel-caption">
                     <div class="app_banner_contentmt mt_60 wow fadeInUp">
                         <h1 class="" data-wow-delay="0.2s"> Unveil the glory of comfort<br /> in Modular Kitchens </h1>
-                        <a href="collections.html">View Collections</a>
+                        <a href="collection">View Collections</a>
                     </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
                     <div class="carousel-caption">
                     <div class="app_banner_contentmt mt_60 wow fadeInUp">
                         <h2 class="" data-wow-delay="0.2s"> Explore the innovative <br />designs with German<br> Technology </h2>
-                        <a href="collections.html">View Collections</a>
+                        <a href="collection">View Collections</a>
                     </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
                     <div class="carousel-caption">
                     <div class="app_banner_contentmt mt_60 wow fadeInUp">
                         <h2 class="" data-wow-delay="0.2s"> More than 14 years of trust <br /> withour clients </h2>
-                        <a href="collections.html">View Collections</a>
+                        <a href="collection">View Collections</a>
                     </div>
                     </div>
                 </div>
